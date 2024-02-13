@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(8, 8, 51);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(141, 141, 227);
+  }
+  main hr {
+    border: 0;
+    background-color: rgb(126, 126, 229);
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 120px 0;
+  }
+  .firstsection > div {
+    width: 30%;
+  }
+
+  .leftsection {
+    font-size: 3rem;
+    margin: 15px 0;
+  }
+  .leftsection .buttons {
+    padding: 50px 0;
+  }
+  .leftsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .rightsection img {
+    width: 100%;
+  }
+  .purple {
+    color: rgb(131, 75, 184);
+  }
+  .text-gray {
+    color: gray;
+  }
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  .secondsection h1 {
+    font-size: 1.9rem;
+  }
+  .secondsection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .secondsection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 155px;
+  }
+  .image-top {
+    width: 50px;
+    position: relative;
+    top: -37px;
+    left: -13px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+  }
+  .image-toptwo {
+    width: 35px;
+    position: relative;
+    top: -37px;
+    left: -13px;
+  }
+  footer {
+    background-color: rgb(7, 7, 54);
+  }
+  .footer {
+    align-items: center;
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-around;
+    height: 18rem;
+  }
+  .footer ul {
+    list-style: none;
+  }
+  footer ul li a {
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+  }
+  footer ul li a:hover {
+    text-decoration: none;
+    color: rgb(105, 105, 255);
+  }
+  footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding-bottom: 5rem;
+  }
